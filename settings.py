@@ -1,0 +1,17 @@
+import pygame as pg
+
+SCREEN_SIZE = (600, 480)
+BG_COLOR = pg.Color("Black")
+
+SNAKE_H_X = SCREEN_SIZE[0] // 2
+SNAKE_H_Y = SCREEN_SIZE[1] // 2
+SNAKE_H_CORDS = (SNAKE_H_X, SNAKE_H_Y)
+SNAKE_SPEED = 2
+SNAKE_WIDTH = 10
+SNAKE_HEIGHT = 10
+SNAKE_COLOR = pg.Color("Green")
+
+MAX_FOOD = 3
+FOOD_WIDTH = 10
+FOOD_HEIGHT = 10
+FOOD_COLOR = pg.Color("Red")
